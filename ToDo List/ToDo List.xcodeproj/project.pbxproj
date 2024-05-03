@@ -14,6 +14,9 @@
 		3D55DFDD2BE3FCEA00CC56AD /* ToDo_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55DFDC2BE3FCEA00CC56AD /* ToDo_ListTests.swift */; };
 		3D55DFE72BE3FCEA00CC56AD /* ToDo_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55DFE62BE3FCEA00CC56AD /* ToDo_ListUITests.swift */; };
 		3D55DFE92BE3FCEA00CC56AD /* ToDo_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55DFE82BE3FCEA00CC56AD /* ToDo_ListUITestsLaunchTests.swift */; };
+		3DBA92BC2BE40A2000CA7795 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA92BB2BE40A2000CA7795 /* Todo.swift */; };
+		3DBA92BF2BE40A7600CA7795 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA92BE2BE40A7600CA7795 /* TodoDetailView.swift */; };
+		3DBA92C32BE40ACE00CA7795 /* StatusIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA92C22BE40ACE00CA7795 /* StatusIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		3D55DFE22BE3FCEA00CC56AD /* ToDo ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D55DFE62BE3FCEA00CC56AD /* ToDo_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_ListUITests.swift; sourceTree = "<group>"; };
 		3D55DFE82BE3FCEA00CC56AD /* ToDo_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DBA92BB2BE40A2000CA7795 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		3DBA92BE2BE40A7600CA7795 /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
+		3DBA92C22BE40ACE00CA7795 /* StatusIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		3D55DFCA2BE3FCE700CC56AD /* ToDo List */ = {
 			isa = PBXGroup;
 			children = (
+				3DBA92BD2BE40A6300CA7795 /* TodoDetailView */,
+				3DBA92BA2BE40A0E00CA7795 /* Model */,
 				3D55DFCB2BE3FCE700CC56AD /* ToDo_ListApp.swift */,
 				3D55DFCD2BE3FCE700CC56AD /* ContentView.swift */,
 				3D55DFCF2BE3FCEA00CC56AD /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				3D55DFE82BE3FCEA00CC56AD /* ToDo_ListUITestsLaunchTests.swift */,
 			);
 			path = "ToDo ListUITests";
+			sourceTree = "<group>";
+		};
+		3DBA92BA2BE40A0E00CA7795 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA92BB2BE40A2000CA7795 /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DBA92BD2BE40A6300CA7795 /* TodoDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA92BE2BE40A7600CA7795 /* TodoDetailView.swift */,
+				3DBA92C22BE40ACE00CA7795 /* StatusIndicator.swift */,
+			);
+			path = TodoDetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBA92C32BE40ACE00CA7795 /* StatusIndicator.swift in Sources */,
 				3D55DFCE2BE3FCE700CC56AD /* ContentView.swift in Sources */,
+				3DBA92BC2BE40A2000CA7795 /* Todo.swift in Sources */,
 				3D55DFCC2BE3FCE700CC56AD /* ToDo_ListApp.swift in Sources */,
+				3DBA92BF2BE40A7600CA7795 /* TodoDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
